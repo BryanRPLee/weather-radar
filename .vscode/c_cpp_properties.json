@@ -1,0 +1,37 @@
+{
+  "configurations": [
+    {
+      "name": "ESP32",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "/Users/bryanlee/Library/Arduino15/packages/esp32/hardware/esp32/3.3.7/cores/esp32",
+        "/Users/bryanlee/Library/Arduino15/packages/esp32/hardware/esp32/3.3.7/variants/esp32",
+        "/Users/bryanlee/Library/Arduino15/packages/esp32/hardware/esp32/3.3.7/libraries/WiFi/src",
+        "/Users/bryanlee/Library/Arduino15/packages/esp32/hardware/esp32/3.3.7/libraries/WebServer/src",
+        "/Users/bryanlee/Library/Arduino15/packages/esp32/hardware/esp32/3.3.7/libraries/Wire/src",
+        "/Users/bryanlee/Library/Arduino15/packages/esp32/hardware/esp32/3.3.7/libraries/FS/src",
+        "/Users/bryanlee/Documents/Arduino/libraries/ESP32Servo/src",
+        "/Users/bryanlee/Documents/Arduino/libraries/TinyGPSPlus/src",
+        "/Users/bryanlee/Library/Arduino15/packages/esp32/tools/esp32-libs/3.3.7/include",
+        "/Users/bryanlee/Library/Arduino15/packages/esp32/tools/esp32-libs/3.3.7/include/soc/esp32/include",
+        "/Users/bryanlee/Library/Arduino15/packages/esp32/tools/esp32-libs/3.3.7/include/soc/esp32/include/soc",
+        "/Users/bryanlee/Library/Arduino15/packages/esp32/tools/esp32-libs/3.3.7/include/esp_common/include",
+        "/Users/bryanlee/Library/Arduino15/packages/esp32/tools/esp32-libs/3.3.7/include/freertos/include",
+        "/Users/bryanlee/Library/Arduino15/packages/esp32/tools/esp32-libs/3.3.7/include/freertos/FreeRTOS-Kernel/include",
+        "/Users/bryanlee/Library/Arduino15/packages/esp32/tools/esp32-libs/3.3.7/include/freertos/esp_additions/include",
+        "/Users/bryanlee/Library/Arduino15/packages/esp32/tools/esp32-libs/3.3.7/include/freertos/config/include/freertos"
+      ],
+      "defines": [
+        "ARDUINO=10819",
+        "ESP32",
+        "F_CPU=240000000L",
+        "CONFIG_IDF_TARGET_ESP32=1"
+      ],
+      "compilerPath": "/Users/bryanlee/Library/Arduino15/packages/esp32/tools/esp-x32/2511/bin/xtensa-esp32-elf-gcc",
+      "cStandard": "c17",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "gcc-x64"
+    }
+  ],
+  "version": 4
+}
