@@ -48,3 +48,5 @@ Run in demo mode:
 ```bash
 python display.py --demo
 ```
+
+This repository is set up as a prototype for local hardware testing and visualization.
